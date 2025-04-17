@@ -1,0 +1,25 @@
+
+[
+    
+        {
+            "title" : "Coconut lentil soup",
+            "url" : "/recipes/coconut-lentil-soup/",
+            "ingredients" : ["1 large onion","6 garlic cloves","3 tablespoons of grated ginger","2 tablespoons virgin coconut oil","5 teaspoons curry powder","0.5 teaspoon cayenne pepper","400g can unsweetened coconut milk","150g split red lentils","8 tablespoons unsweetened shredded coconut","2 teaspoons kosher salt","300g spinach","1 can crushed tomatoes","plain whole-milk or non-dairy yogurt (for serving; optional)"],
+            "tags" : ["Soup 🥣","Vegetarian 🌿","Vegan 🌱"]
+        },
+    
+        {
+            "title" : "Courgette &amp; lemon risotto",
+            "url" : "/recipes/courgette-lemon-risotto/",
+            "ingredients" : ["50g butter","1 onion, finely chopped","1 large garlic clove crushed","180g risotto rice","1 vegetable stock cube","zest and juice 1 lemon","2 lemon thyme sprigs","250g courgette diced","50g parmesan (or vegetarian alternative) grated","2 tbsp crème fraîche"],
+            "tags" : ["Italian 🇮🇹","Vegetarian 🌿","Favourite ⭐"]
+        },
+    
+        {
+            "title" : "Simple brownies",
+            "url" : "/recipes/simple-brownies/",
+            "ingredients" : ["225g butter (preferably unsalted)","450g caster sugar","140g dark chocolate broken into pieces","5 free-range medium eggs","110g plain flour","55g cocoa powder"],
+            "tags" : ["Sweet 🍬","Cake 🍰","Vegetarian 🌿","Sharable","Favourite ⭐"]
+        }
+    
+]
