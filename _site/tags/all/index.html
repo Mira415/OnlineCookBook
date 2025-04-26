@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all - My Online Cookbook</title>
+    <meta name="description" content="The online cookbook of John Doe">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 105 55%22><text y=%22.9em%22 font-size=%2275%22>🍽️</text></svg>">
+    <meta property="og:title" content="all - My Online Cookbook" />
+    <link rel="manifest" href="/manifest.json">
+
+     <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Online Cook Book">
+  <link rel="apple-touch-icon" href="/img/50.png" sizes="50x50">
+  <link rel="apple-touch-icon" href="/img/80.png" sizes="80x80">
+  <link rel="apple-touch-icon" href="/img/100.png" sizes="100x100">
+  <link rel="apple-touch-icon" href="/img/152.png" sizes="152x152">
+  <meta name="msapplication-TileImage" content="/img/152.png">
+  <meta name="theme-color" content="#ffdb70">
+  <meta name="msapplication-TileColor" content="#ffdb70">
+
+    
+    
+    <style>
+      :root {
+        --color-primary: #ffdb70;
+        --color-secondary: #32816e;
+      }
+      *,*::before,*::after{box-sizing:border-box}body,h1,h2,h3,h4,p,ul,ol,li,figure,figcaption,blockquote,dl,dd{margin:0}body{min-height:100vh;margin:0;padding:0;scroll-behavior:smooth;text-rendering:optimizeSpeed}ol[class],ul[class]{list-style:none;padding:0}img{max-width:100%;display:block}input,button,textarea,select{font:inherit}@media(prefers-reduced-motion: reduce){*{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}.u-hide{display:none !important}.u-show{display:initial !important}.u-sr-only{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}.u-print-only{display:none !important}@media print{.u-print-only{display:initial !important}}.u-bgc-grey-100{background-color:var(--color-grey-100)}.u-highlight{background-color:rgba(250,243,145,.5)}.u-free-text p,.u-free-text h1,.u-free-text h2,.u-free-text h3,.u-free-text h4,.u-free-text h5,.u-free-text h6{margin-bottom:18px}.u-free-text img{margin:20px auto}.u-mb-large{margin-bottom:30px}:root{--color-grey-100: #F9FAFB;--color-grey-200: #F3F4F6;--color-grey-300: #E5E7EB;--color-grey-400: #D1D5DB;--color-grey-500: #9CA3AF;--color-grey-800: #4B5563;--color-grey-900: #3A3A3A;--color-white: #ffffff;--shadow-md: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);--shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);--shadow-xl: 0 25px 50px -12px rgba(0,0,0,0.25)}body{display:flex;flex-direction:column}main{display:flex;flex-direction:column;margin-bottom:30px}[x-cloak]{display:none !important}section{padding:30px 0}@media all and (min-width: 768px){section{padding:60px 0}}a{color:var(--color-secondary);text-decoration:underline 2px;text-underline-offset:2px}a:hover,a:focus{outline:none;text-decoration:none}a:focus-visible{outline:2px solid var(--color-secondary)}button{cursor:pointer}input:focus{outline:none;box-shadow:0 0 0 2px var(--color-secondary)}@font-face{font-family:"Vollkorn";font-style:normal;font-weight:400;font-display:swap;src:local("Vollkorn Regular"),local("Vollkorn-Regular"),url("/fonts/Vollkorn-Regular.woff2") format("woff2"),url("/fonts/Vollkorn-Regular.woff") format("woff")}@font-face{font-family:"Vollkorn";font-style:normal;font-weight:600;font-display:swap;src:local("Vollkorn SemiBold"),local("Vollkorn-SemiBold"),url("/fonts/Vollkorn-SemiBold.woff2") format("woff2"),url("/fonts/Vollkorn-SemiBold.woff") format("woff")}body{font-size:1rem;font-family:Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;line-height:1.5}h1,h2,h3,h4,h5,h6{font-family:"Vollkorn",serif;font-weight:600}h1{text-align:center;font-size:clamp(2rem,calc(1rem + 3vw),4rem)}h2{text-align:center;font-size:clamp(1.6rem,calc(1rem + 2vw),3.4rem)}h3{font-size:clamp(1.2rem,calc(1rem + 1vw),2.6rem)}.l-container{margin:0 auto;max-width:1140px;padding-left:18px;padding-right:18px}.l-header,.l-footer{padding:12px;display:flex;justify-content:space-between}.l-footer{margin-top:auto}.about img{margin:0 auto}.c-card__wrapper{display:grid;grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));gap:30px}.c-card{position:relative;width:100%;max-width:600px;margin:0 auto;display:flex;flex-direction:column;border-radius:20px;background-color:var(--color-white);box-shadow:var(--shadow-md);text-decoration:none;color:var(--color-grey-900)}.c-card__image{height:auto;aspect-ratio:16/9;object-fit:cover;background-color:var(--color-grey-500);border-radius:20px 20px 0 0}.c-card__info{padding:12px;display:flex;gap:18px;justify-content:space-between;align-items:center;background-color:var(--color-primary)}.c-card__tag-abbr{text-decoration:none}.c-card__tag-first-letter{width:22px;height:22px;display:inline-flex;justify-content:center;align-items:center;font-weight:bold;background-color:var(--color-grey-900);color:var(--color-white);border-radius:50%}.card__time{display:flex;align-items:center}.card__time svg{margin-right:6px;fill:var(--color-grey-900)}.c-card__title-wrapper{flex-grow:1;display:flex;align-items:center;padding:12px 18px;text-decoration:none;color:var(--color-grey-900)}.c-card__title-wrapper::before{content:"";position:absolute;top:0;left:0;height:100%;width:100%;border-radius:20px}.c-card__title-wrapper:hover,.c-card__title-wrapper:focus{text-decoration:none}.c-card__title-wrapper:hover::before,.c-card__title-wrapper:focus::before{outline:none;box-shadow:var(--shadow-lg);color:var(--color-grey-900);text-decoration:none}.c-card__title-wrapper:focus-visible::before{box-shadow:0 0 0 2px var(--color-secondary),var(--shadow-lg)}.c-card__title{font-size:1.4rem}.c-home::before{content:"";position:absolute;z-index:-10;width:100%;height:400px;background-image:linear-gradient(to bottom, var(--color-primary), var(--color-white));background-color:rgba(255,255,255,.3);background-blend-mode:overlay}.c-home__highlighted-tag-link{margin-top:30px;display:block;text-align:center}.c-tags__label{margin-bottom:6px;text-align:center}.c-nav{position:relative;width:100%;display:flex;justify-content:space-between;align-items:center;font-size:var(--text-sm);font-weight:600;font-size:1.2rem}.c-nav__list{display:flex;align-items:center;gap:15px}.c-nav__logo svg{box-shadow:var(--shadow-md)}.c-nav__home{display:flex;align-items:center;color:var(--color-grey-900);text-decoration:none}.c-nav__home:hover,.c-nav__home:focus{text-decoration:none}.c-nav__home-text{margin-left:18px}@media all and (max-width: 576px){.c-nav__home-text{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}}.c-nav__nav-item{padding:4px 8px;display:flex;color:var(--color-grey-900);text-decoration:none}.c-nav__nav-item:hover,.c-nav__nav-item:focus{text-decoration:none;background-color:var(--color-grey-900);color:var(--color-white);border-radius:6px}.c-nav__nav-item--active{background-color:var(--color-grey-900);color:var(--color-white);border-radius:6px}.c-recipe__header-image{width:100%;object-fit:cover;height:50vh;min-height:300px;background-color:var(--color-grey-500)}.c-recipe__title{padding:20px;background-color:var(--color-primary)}.c-recipe__ingredients-list li{margin-bottom:12px}.c-recipe__ingredients-list li::before{content:"-";margin-right:6px}.c-recipe__additional-info{margin-bottom:30px}.c-recipe__additional-info svg{margin-right:6px;fill:var(--color-grey-900)}.c-recipe__recipe-content-wrapper{display:flex;flex-direction:column;gap:30px}@media all and (min-width: 768px){.c-recipe__recipe-content-wrapper{display:grid;grid-template-columns:400px 1fr;grid-template-rows:min-content 1fr;grid-template-areas:"ingredients tags" "ingredients instructions"}}.c-recipe__tag-list{margin-bottom:12px;display:flex;flex-wrap:wrap;gap:12px}@media all and (min-width: 768px){.c-recipe__tag-list{grid-area:tags;margin-bottom:0}}@media all and (min-width: 768px){.c-recipe__ingredients-wrapper{grid-area:ingredients}}.c-recipe__serving-button{height:20px;width:20px;padding:0;display:inline-flex;justify-content:center;align-items:center;background-color:var(--color-grey-900);border:none;border-radius:50%;color:var(--color-white)}.c-recipe__serving-button:hover,.c-recipe__serving-button:focus{background-color:var(--color-grey-800)}@media all and (min-width: 768px){.c-recipe__instructions-wrapper{grid-area:instructions}}.c-tags{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.c-tags__tag{display:inline-flex;padding:2px 6px;color:var(--color-grey-900);text-decoration:none;border:1px solid currentColor;border-radius:8px;font-size:1rem}.c-tags__tag:hover,.c-tags__tag:focus{text-decoration:none;color:var(--color-white);background-color:var(--color-grey-900)}.c-tag__tag--selected{color:var(--color-white);background-color:var(--color-grey-900);border:1px solid currentColor}.c-search__search-toggle{margin-left:20px;padding:10px;display:flex;background-color:transparent;border:none}.c-search__search-toggle>*{display:flex}.c-search__search-wrapper{font-weight:normal}.c-search__search-wrapper>*+*{margin-top:12px}.c-search__search-wrapper:not(.c-search__search-wrapper--home){position:absolute;z-index:10;top:60px;right:0;width:100%;background-color:var(--color-white);padding:24px;border:1px solid var(--color-grey-300);border-radius:10px;box-shadow:var(--shadow-xl);font-size:1rem}@media all and (min-width: 768px){.c-search__search-wrapper:not(.c-search__search-wrapper--home){max-width:500px}}.c-search__label{display:block}.c-search__label--home{text-align:center;font-weight:bold;font-size:1.2rem}.c-search__input-wrapper{position:relative}.c-search__input-wrapper--home{position:relative;width:100%;max-width:500px;margin-left:auto;margin-right:auto}.c-search__input-wrapper--home>svg{position:absolute;left:16px;top:16px}.c-search__input{width:100%;padding:4px 12px;border:2px solid var(--color-grey-900);border-radius:30px}.c-search__input--home{padding:12px 18px 12px 46px;width:100%;padding:12px 18px 12px 46px;border:2px solid var(--color-grey-900)}.c-search__close-button{display:flex;position:absolute;right:12px;top:8px;padding:0;border:none;background-color:transparent}.c-search__close-button svg{width:12px}.c-search__close-button--home{right:16px;top:16px}.c-search__close-button--home svg{width:17px}.c-search__results-wrapper{position:relative;margin:0}.c-search__results{max-height:100vh;overflow-y:auto}.c-search__results>*+*{margin-top:10px}.c-search__results.c-search__results--home{position:absolute;z-index:10;top:10px;left:50%;transform:translateX(-50%);width:100%;max-width:500px;padding:24px;background-color:var(--color-white);border:1px solid var(--color-grey-300);box-shadow:var(--shadow-xl);border-radius:10px}.c-search__result-link{display:flex;align-items:flex-start;flex-wrap:wrap;gap:10px}.c-search__result-link--home{font-size:1.2rem}.c-search__result-ingredients{font-style:italic}.c-search__result-ingredients--home{font-size:1rem}/*# sourceMappingURL=main.css.map */
+
+    </style>
+<script>if ("serviceWorker" in navigator){
+        navigator.serviceWorker.register("/serviceWorker.js")
+        .then(function(registration){
+            console.log("Service Worker registered with scope:", registration.scope);
+        }).catch(function(err){
+            console.log("Service Worker registration failed:", err);
+        });
+    }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
+  </head>
+  <body class="">
+    <header class="l-header">
+        <nav class="c-nav">
+    <ul class="c-nav__list">
+        
+            <li>
+                
+                    <a href="/" class="c-nav__home">
+                        <span class="c-nav__logo"><svg width="47" height="56" viewBox="0 0 47 56" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M43.301 0H6.371C4.333 0 2.68 1.643 2.68 3.67v48.335c0 2.027 1.652 3.67 3.69 3.67H43.3c2.043 0 3.699-1.647 3.699-3.679V3.678C47 1.647 45.344 0 43.301 0z" fill="var(--color-primary, #FED35B)"/><path d="M42.33 1.104H6.712c-1.966 0-3.559 1.578-3.559 3.524v46.42c0 1.945 1.593 3.523 3.559 3.523h35.616c1.97 0 3.567-1.582 3.567-3.532V4.636c0-1.95-1.597-3.533-3.567-3.533z" fill="#EDEDED"/><path d="M40.365 0H3.666A3.666 3.666 0 000 3.666v48.298a3.666 3.666 0 003.666 3.667h36.7a3.675 3.675 0 003.675-3.675V3.675A3.675 3.675 0 0040.366 0z" fill="var(--color-primary, #FED35B)"/><path d="M3.666 0A3.666 3.666 0 000 3.666v48.298a3.666 3.666 0 003.666 3.667h2.317V0H3.666z" fill="#000" fill-opacity=".05"/><path d="M33.439 21.411a.596.596 0 00-.596.596v6.468h-1.059v-6.468a.596.596 0 00-.595-.596h-.01a.596.596 0 00-.595.596v6.468h-1.06v-6.468a.596.596 0 00-.595-.596h-.01a.596.596 0 00-.595.596v6.468h-1.059v-6.468a.596.596 0 00-1.191 0v6.422c0 1.324.676 2.554 1.792 3.264l.854.544-.473 16.514c-.033.99.708 1.872 1.697 1.93a1.81 1.81 0 001.92-1.867l-.476-16.577.855-.544a3.868 3.868 0 001.791-3.264v-6.422a.596.596 0 00-.595-.596zM23.343 27.417c0-3.317-1.978-6.006-4.418-6.006-2.44 0-4.417 2.689-4.417 6.006 0 2.67 1.283 4.932 3.056 5.712l-.447 15.622c-.033.99.707 1.872 1.697 1.93a1.81 1.81 0 001.92-1.867l-.45-15.684c1.774-.78 3.059-3.041 3.059-5.713z" fill="#344D5B"/><path d="M18.925 31.707c1.964 0 3.556-2.164 3.556-4.834 0-2.669-1.592-4.833-3.556-4.833-1.963 0-3.555 2.164-3.555 4.833 0 2.67 1.592 4.834 3.555 4.834z" fill="#293B44"/><path d="M14.009 6.643h20.524v8.359H14.01v-8.36z" fill="#EDEDED"/></svg></span>
+                        <span class="c-nav__nav-item c-nav__home-text ">Home</span>
+                    </a>
+                
+            </li>
+        
+            <li>
+                
+                    <a href="/recipes/" class="c-nav__nav-item ">All recipes</a>
+                
+            </li>
+        
+            <li>
+                
+                    <a href="/about/" class="c-nav__nav-item ">About</a>
+                
+            </li>
+        
+    </ul>
+    <div x-data="{ searchOpen: false }">
+        <button class="c-search__search-toggle" @click="
+            searchOpen = !searchOpen;
+            $nextTick(() => document.querySelector('#search').focus(
+            ));
+        ">
+            <span class="u-sr-only">Search</span>
+            <span x-show="!searchOpen"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><g><path d="M21.731 20.436l-6.256-6.256a8.666 8.666 0 001.941-5.47C17.416 3.907 13.51 0 8.708 0 3.907.001 0 3.908 0 8.709c0 4.802 3.907 8.709 8.708 8.709 2.072 0 3.974-.73 5.47-1.942l6.257 6.256a.914.914 0 001.296 0 .916.916 0 000-1.296zM8.708 15.584A6.882 6.882 0 011.833 8.71a6.882 6.882 0 016.875-6.875 6.882 6.882 0 016.875 6.875 6.882 6.882 0 01-6.875 6.875z" fill="#3A3A3A"/></g></svg></span>
+            <span x-show="searchOpen" x-cloak><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.0156 11.0175L21.5819 2.4509C22.1394 1.89367 22.1394 0.992719 21.5819 0.435496C21.0247 -0.121728 20.1238 -0.121728 19.5665 0.435496L10.9999 9.00212L2.43352 0.435496C1.87603 -0.121728 0.975338 -0.121728 0.418114 0.435496C-0.139371 0.992719 -0.139371 1.89367 0.418114 2.4509L8.98449 11.0175L0.418114 19.5841C-0.139371 20.1414 -0.139371 21.0423 0.418114 21.5995C0.695812 21.8775 1.06094 22.0171 1.42582 22.0171C1.79069 22.0171 2.15556 21.8775 2.43352 21.5995L10.9999 13.0329L19.5665 21.5995C19.8445 21.8775 20.2094 22.0171 20.5742 22.0171C20.9391 22.0171 21.304 21.8775 21.5819 21.5995C22.1394 21.0423 22.1394 20.1414 21.5819 19.5841L13.0156 11.0175Z" fill="#3A3A3A"/>
+</svg>
+</span>
+        </button>
+        <div x-show="searchOpen" @click.away="searchOpen = false" x-cloak>
+            <div class="c-search__search-wrapper " x-data="{ searchResults: [], searchInput: '', matches: [] }">
+    <label for="search" class="c-search__label ">Find recipes by name, tag or ingredients&nbsp;:</label>
+    <div class="c-search__input-wrapper ">
+        <input type="text" id="search" class="c-search__input " x-model="searchInput" @focus="
+            if (sessionStorage.getItem('searchResults')) {
+                searchResults = JSON.parse(sessionStorage.getItem('searchResults'));
+            } else {
+                fetch('/search.json').then(res => res.json()).then(res => {
+                    sessionStorage.setItem('searchResults', JSON.stringify(res));
+                    searchResults = res;
+                });
+            }
+        " @input="
+            matches = [];
+
+            if (searchInput.length < 3) { return };
+    
+            searchResults.forEach(recipe => {
+                const matchTitle = recipe.title.toLowerCase().includes(searchInput.toLowerCase());
+                const matchIngredient = recipe.ingredients.find(ingredient => ingredient.toLowerCase().includes(searchInput.toLowerCase()));
+                const matchTag = recipe.tags.find(tag => tag.toLowerCase().includes(searchInput.toLowerCase()));
+        
+                if (!matchTitle && !matchIngredient && !matchTag) { return };
+        
+                const match = {...recipe};
+                if (matchTitle) { match.matchTitle = matchTitle };
+                if (matchIngredient) { match.matchIngredient = matchIngredient };
+                if (matchTag) { match.matchTag = matchTag };
+        
+                matches.push(match)
+            });
+        ">
+        
+        <button class="c-search__close-button " x-show="searchInput" @click="
+            searchInput = '';
+            matches = [];
+        " x-cloak>
+            <span class="u-sr-only">Close</span>
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.0156 11.0175L21.5819 2.4509C22.1394 1.89367 22.1394 0.992719 21.5819 0.435496C21.0247 -0.121728 20.1238 -0.121728 19.5665 0.435496L10.9999 9.00212L2.43352 0.435496C1.87603 -0.121728 0.975338 -0.121728 0.418114 0.435496C-0.139371 0.992719 -0.139371 1.89367 0.418114 2.4509L8.98449 11.0175L0.418114 19.5841C-0.139371 20.1414 -0.139371 21.0423 0.418114 21.5995C0.695812 21.8775 1.06094 22.0171 1.42582 22.0171C1.79069 22.0171 2.15556 21.8775 2.43352 21.5995L10.9999 13.0329L19.5665 21.5995C19.8445 21.8775 20.2094 22.0171 20.5742 22.0171C20.9391 22.0171 21.304 21.8775 21.5819 21.5995C22.1394 21.0423 22.1394 20.1414 21.5819 19.5841L13.0156 11.0175Z" fill="#3A3A3A"/>
+</svg>
+
+        </button>
+    </div>
+
+    <template x-if="matches.length">
+        <div class="c-search__results-wrapper">
+            <ul class="c-search__results ">
+                <template x-for="(match, index) in matches" :key="index">
+                    <li>
+                        <div class="c-search__result-link ">
+                            <a x-bind:href="match.url" x-html="highlightText(match.title, searchInput)"></a>
+                            <template x-if="match.matchTag">
+                                <div class="c-tags__tag c-tag__tag--selected" x-html="highlightText(match.matchTag, searchInput)"></div>
+                            </template>
+                        </div>
+                        <template x-if="match.matchIngredient">
+                            <p class="c-search__result-ingredients " >
+                                Contains: <span x-html="highlightText(match.matchIngredient, searchInput)"></span>
+                            </p>
+                        </template>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </template>
+</div>
+
+<script>
+    function highlightText (string, subString) {
+        const index = string.toLowerCase().indexOf(subString.toLowerCase());
+        if (index === -1) return string;
+        return string.substring(0, index) + '<span class="u-highlight">' + string.substring(index, index + subString.length) + '</span>' + string.substring(index + subString.length);
+    }
+</script>
+        </div>
+    </div>
+</nav>
+    </header>
+
+    <main>
+        
+    <main>
+        <section>
+            <div class="l-container">
+                <h1>all</h1>
+
+                
+            </div>
+        </section>
+        <section class="u-bgc-grey-100">
+            <div class="l-container">
+                <div class="c-card__wrapper">
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                </div>
+            </div>
+        </section>
+        
+            <section>
+                <div class="l-container">
+                    <nav>
+    <ul class="c-tags">
+        
+            <li><a class="c-tags__tag" href="/recipes">All recipes</a></li>
+        
+        
+            
+                <li><a class="c-tags__tag" href="/tags/cake">Cake 🍰</a></li>
+            
+        
+            
+                <li><a class="c-tags__tag" href="/tags/favourite">Favourite ⭐</a></li>
+            
+        
+            
+                <li><a class="c-tags__tag" href="/tags/italian">Italian 🇮🇹</a></li>
+            
+        
+            
+                <li><a class="c-tags__tag" href="/tags/soup">Soup 🥣</a></li>
+            
+        
+            
+                <li><a class="c-tags__tag" href="/tags/sweet">Sweet 🍬</a></li>
+            
+        
+            
+                <li><a class="c-tags__tag" href="/tags/sharable">Sharable</a></li>
+            
+        
+            
+                <li><a class="c-tags__tag" href="/tags/vegetarian">Vegetarian 🌿</a></li>
+            
+        
+            
+                <li><a class="c-tags__tag" href="/tags/vegan">Vegan 🌱</a></li>
+            
+        
+    </ul>
+</nav>
+                </div>
+            </section>
+        
+    </main>
+
+    </main>
+
+    <footer class="l-footer">
+      <p>Made with <a href="https://myonlinecookbook.xyz/" target="_blank" rel="noopener">My Online Cookbook</a></p>
+<p>© John Doe 2025</p>
+    </footer>
+  </body>
+</html>
